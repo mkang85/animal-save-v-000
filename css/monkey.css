@@ -10,3 +10,8 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 1170px) {
+  #monkey {
+    margin-top: 100px;
+  }
+}
