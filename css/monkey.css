@@ -10,14 +10,9 @@ html {
 
 /* Write your solution here */
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (min-width: 642px) and (max-width: 1170px) {
   #monkey {
-    margin-top: -600px;
-  }
-}
-
-@media only screen and (min-width: 642px) {
-  #monkey {
-    right: 0px;
+    top: 0;
+    right: 0;
   }
 }
